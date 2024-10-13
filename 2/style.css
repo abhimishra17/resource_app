@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main{
+  background-image: linear-gradient(rgb(247, 250, 250),rgb(148, 150, 150)
+  );
+ 
+}
+
+.heading, .description {
+  margin: 30px;
+  text-align: center;
+  color: black;
+}
+
+
+.ProblemSolving, .Database, .Aptitude1, .Aptitude2, .CoreSubjects {
+  margin: 20px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+
+  
+  
+}
+.Striver, .neetcode, .tutorial, .compiler, .playlist, .site {
+  border: 3px black solid;
+  padding: 30px;
+  text-align: center;
+  width: 400px;
+  height: 200px;
+  background-color: rgb(108, 161, 246);
+}
+#about{
+  border: 2px black solid;
+  margin: 0 150px 0 150px;
+  padding: 10px 0 10px 0;
+  border-radius: 20px;
+  color: black;
+  text-align: center;
+  text-decoration:double;
+}
+
+.dis{
+  
+  font-size: large;
+  padding: 10px;
+
+}
+.btn{
+  margin-top: 50px;
+  background-color:rgb(225, 245, 194);
+  width: 200px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size:medium;
+}
+.btn:hover{
+  cursor: pointer;
+  color: rgb(97, 97, 253);
+}
+.ProblemSolving{
+  background-image:url(./image/problem.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+
+
+}
+.Database{
+  background-image:url(./image/datbase1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.apti{
+  background-image:url(./image/database.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.CoreSubjects{
+  background-image:url(./image/core.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.Striver, .neetcode, .tutorial, .compiler, .playlist, .site {
+  border-radius: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin: 10px;
+  transition: background-color 0.3s ease; 
+}
+.Striver:hover, .neetcode:hover, .tutorial:hover, 
+.compiler:hover, .playlist:hover, .site:hover {
+  background-color: yellow; 
+}
+
+
+
+
+
+
+
+
+
+
